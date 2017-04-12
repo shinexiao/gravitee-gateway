@@ -105,7 +105,7 @@ reporters:
 
   # Elasticsearch reporter
   elasticsearch:
-    enabled: true # Is the reporter enabled or not (default to true)
+    enabled: false # Is the reporter enabled or not (default to true)
     hosts:
       - ${ds.elastic.host}:${ds.elastic.port}
 #    index: gravitee
